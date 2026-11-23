@@ -1,0 +1,43 @@
+
+body {
+  background-color: #f4f4f4;
+}
+
+.color-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.color-box {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+}
+
+/* Hexadecimal color */
+.color1 {
+  background-color: #3498db;
+}
+
+/* RGB color */
+.color2 {
+  background-color: rgb(46, 204, 113);
+}
+
+/* Predefined color name */
+.color3 {
+  background-color: tomato;
+}
+
+/* HSL color */
+.color4 {
+  background-color: hsl(280, 70%, 60%);
+}
+
+/* Another valid color format */
+.color5 {
+  background-color: orange;
+}
